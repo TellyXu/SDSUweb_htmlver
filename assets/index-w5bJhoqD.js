@@ -77,13 +77,16 @@ let I;
 
 async function loadData() {
   try {
-    const response = await fetch('./index.json');
+    console.log('Starting to load data...');
+    const response = await fetch('/data.json');
+    console.log('Received response from fetch.');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     I = await response.json();
+    console.log('Data loaded:', I);
 
-    // Now you can use I as before
+    // Use I within this function
     console.log('Logo URL inside loadData:', I.header.logoUrl);
 
     const logoElement = document.getElementById('logo');
@@ -91,13 +94,37 @@ async function loadData() {
       logoElement.src = I.header.logoUrl;
     }
 
-    // Continue with other code that depends on I
+    // Other code that depends on I
+    initializePage();
+
   } catch (error) {
     console.error('Error loading JSON data:', error);
   }
 }
 
-loadData();
+function initializePage() {
+  console.log('Initializing page...');
+  if (I) {
+    console.log('Logo URL in initializePage:', I.header.logoUrl);
+    // Proceed with initialization
+  } else {
+    console.error('Data not loaded. Cannot initialize page.');
+  }
+}
+
+loadData().then(() => {
+  console.log('loadData has completed.');
+  // Now you can safely access I
+  if (I) {
+    console.log('Logo URL after loadData:', I.header.logoUrl);
+    // Proceed with other code
+  } else {
+    console.error('Data not loaded properly.');
+  }
+}).catch(error => {
+  console.error('Error after loadData:', error);
+});
+
 
 
   function Bm(){const[e,t]=S.useState(!1);return Gf(),document.addEventListener("scroll",n=>{(window.scrollY||window.pageYOffset)>750?t(!0):t(!1)}),g.jsx("div",{className:"fixed top-0 z-40 w-full text-white bg-opacity-20 transition-all duration-500",style:{background:e?"#4aa1d4":""},children:g.jsxs("header",{className:"py-6 px-20 flex",children:[g.jsx("div",{className:"w-1/12",children:g.jsx("img",{src:I.header.logoUrl,alt:"AI Health Equity Logo",style:{height:"60px",width:"auto"}})}),g.jsx("div",{className:"w-10/12 flex gap-x-4 items-center",children:g.jsx("p",{style:{fontFamily:"gentona",fontWeight:500},children:I.header.title})}),g.jsxs("div",{className:"w-5/12  justify-end gap-x-4 items-center hidden",children:[g.jsx("div",{children:g.jsx("p",{style:{fontFamily:"gentona",fontWeight:500},className:"py-1 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all",children:"Home"})}),g.jsx("div",{children:g.jsx("p",{style:{fontFamily:"gentona",fontWeight:500},className:"py-1 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all",children:"About Us"})}),g.jsx("div",{children:g.jsx("p",{style:{fontFamily:"gentona",fontWeight:500},className:"py-1 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all",children:"Insight & Research"})}),g.jsx("div",{children:g.jsx("p",{style:{fontFamily:"gentona",fontWeight:500},className:"py-1 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all",children:"Partnership"})}),g.jsx("div",{children:g.jsx("p",{style:{fontFamily:"gentona",fontWeight:500},className:"py-1 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all",children:"Events"})}),g.jsx("div",{children:g.jsx("i",{className:"iconfont icon-search text-2xl hover:text-yellow-400 transition-all cursor-pointer"})})]})]})})}function Vm(){return g.jsxs("footer",{className:"lg:py-10 lg:px-20 p-4",style:{background:"#4aa1d4"},children:[g.jsxs("div",{className:"block lg:flex",children:[g.jsx("div",{className:"w-full lg:w-5/12 mb-8 lg:mb-0 flex justify-center md:justify-start",children:g.jsx("img",{src:I.footer.logoUrl,alt:"AI Health Equity Logo",style:{height:"60px",width:"auto"}})}),g.jsx("div",{className:"w-full lg:w-7/12 flex items-center",children:g.jsxs("div",{className:"flex w-full lg:flex-row lg:w-full lg:justify-end flex-wrap gap-6 uppercase",style:{color:"#FFF"},children:[g.jsx("span",{onClick:e=>window.open(I.footer.list1Link),className:"hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline",children:I.footer.list1}),g.jsx("span",{onClick:e=>window.open(I.footer.list2Link),className:"hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline",children:I.footer.list2}),g.jsx("span",{onClick:e=>window.open(I.footer.list3Link),className:"hover:text-blue-700 cursor-pointer transition-all block w-full text-center lg:w-auto lg:inline",children:I.footer.list3})]})})]}),g.jsx("span",{style:{color:"#FFF"},className:"mt-1 block w-full text-center lg:w-auto lg:inline",children:I.footer.copyright})]})}const cu="/assets/sdsutwo-DeNFoAzV.png";/*! @license is-dom-node v1.0.4
