@@ -3,7 +3,7 @@ const Um = {
     logoUrl: "https://img.picui.cn/free/2024/09/26/66f57338841ea.png",
     title: "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
     bannerUrls: [
-        "https://i.ibb.co/WWcTrKb/Dr-George-with-her-students-Christine-Cho-and-Gianni-Pucillo.jpg",
+        "https://i.ibb.co/pv0GS05/Dr-George-with-her-students-Christine-Cho-and-Gianni-Pucillo.jpg",
         "https://i.ibb.co/tzTNzDp/SDSU-President-and-her-entourage-visits-Dr-George-Lab.jpg",
         "https://img.picui.cn/free/2024/09/26/66f571442f977.jpg",
         "https://img.picui.cn/free/2024/09/26/66f5714475dc6.jpg",
