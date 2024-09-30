@@ -1,16 +1,16 @@
 // config.js
 const Um = {
     logoUrl: "https://img.picui.cn/free/2024/09/26/66f57338841ea.png",
-    title: "AI for Health Equity Research Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+    title: "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
     bannerUrls: [
         "https://i.ibb.co/WWcTrKb/Dr-George-with-her-students-Christine-Cho-and-Gianni-Pucillo.jpg",
-        "https://img.picui.cn/free/2024/09/26/66f571442f977.jpg",
         "https://i.ibb.co/tzTNzDp/SDSU-President-and-her-entourage-visits-Dr-George-Lab.jpg",
+        "https://img.picui.cn/free/2024/09/26/66f571442f977.jpg",
         "https://img.picui.cn/free/2024/09/26/66f5714475dc6.jpg",
         "https://img.picui.cn/free/2024/09/26/66f5714953620.png"
     ],
     main: {
-        titlePrimary: "AI for Health Equity Research Lab",
+        titlePrimary: "Cancer Health Equity + AI/ML Lab",
         titleSecondary: "supported by AIM AHEAD Program for AI Readiness (PAIR)"
     }
 };
@@ -19,7 +19,7 @@ const $m = {
     regionOne: {
         title: "The Latest",
         left: {
-            text: "AI for Health Equity Research Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+            text: "Cancer Health Equity + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)",
             textSubsidiary: "TBD"
         },
         right: {
@@ -42,7 +42,7 @@ const $m = {
         }
     },
     regionThree: {
-        titlePrimary: "AI for Health Equity Research Lab supported by Program for AI Readiness(PAIR)",
+        titlePrimary: "Cancer Health Equity + AI/ML Lab supported by Program for AI Readiness(PAIR)",
         titleSecondary: "JOIN THE EMAIL LIST",
         joinNowLink: "https://www.google.com/search?q=joinNowLink"
     },
