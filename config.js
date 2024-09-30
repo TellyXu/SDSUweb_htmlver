@@ -5,7 +5,7 @@ const Um = {
     bannerUrls: [
         "https://img.picui.cn/free/2024/09/26/66f5714446fc2.jpeg",
         "https://img.picui.cn/free/2024/09/26/66f571442f977.jpg",
-        "https://img.picui.cn/free/2024/09/26/66f57144c0691.jpg",
+        "https://imgur.com/a/DUXMj3Q",
         "https://img.picui.cn/free/2024/09/26/66f5714475dc6.jpg",
         "https://img.picui.cn/free/2024/09/26/66f5714953620.png"
     ],
