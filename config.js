@@ -5,9 +5,9 @@ const Um = {
     bannerUrls: [
         "https://i.ibb.co/pv0GS05/Dr-George-with-her-students-Christine-Cho-and-Gianni-Pucillo.jpg",
         "https://i.ibb.co/tzTNzDp/SDSU-President-and-her-entourage-visits-Dr-George-Lab.jpg",
-        "https://img.picui.cn/free/2024/09/26/66f571442f977.jpg",
-        "https://img.picui.cn/free/2024/09/26/66f5714475dc6.jpg",
-        "https://img.picui.cn/free/2024/09/26/66f5714953620.png"
+        "https://i.ibb.co/pv0GS05/Dr-George-with-her-students-Christine-Cho-and-Gianni-Pucillo.jpg",
+        "https://i.ibb.co/tzTNzDp/SDSU-President-and-her-entourage-visits-Dr-George-Lab.jpg",
+        "https://i.ibb.co/pv0GS05/Dr-George-with-her-students-Christine-Cho-and-Gianni-Pucillo.jpg"
     ],
     main: {
         titlePrimary: "Cancer Health Equity + AI/ML Lab",
@@ -23,8 +23,8 @@ const $m = {
             textSubsidiary: "TBD"
         },
         right: {
-            one: { "text-1-1": "1000+", "text-1-2": "Courses Offered", "text-1-3": "Our Courses on AIMAHEAD" },
-            two: { "text-2-1": "999+", "text-2-2": "Partner Organizations", "text-2-3": "We collaborate with a vast array of partners across all states and union territories" },
+            one: { "text-1-1": "10+", "text-1-2": "Courses Offered", "text-1-3": "Our Courses on AIMAHEAD" },
+            two: { "text-2-1": "10+", "text-2-2": "Partner Organizations", "text-2-3": "We collaborate with a vast array of partners across all states and union territories" },
             three: { "text-3-1": "100+", "text-3-2": "San Diego State University", "text-3-3": "Our multidisciplinary faculty are committed to advancing AIMAHEAD" },
             moreBtnLink: "https://www.google.com"
         }
