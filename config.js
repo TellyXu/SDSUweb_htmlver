@@ -48,7 +48,7 @@ const $m = {
     },
     regionFour: {
         titlePrimary: "Join Us",
-        titleSecondary: "Your Join Changes the World",
+        titleSecondary: "Join Our Lab, Changing the World",
         joinUsNowLink: "https://www.google.com/search?q=joinUsNowLink"
     }
 };
