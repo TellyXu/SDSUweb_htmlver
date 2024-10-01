@@ -11,7 +11,7 @@ const Um = {
     ],
     main: {
         titlePrimary: "Cancer Health Equity + AI/ML Lab",
-        titleSecondary: "supported by AIM AHEAD Program for AI Readiness (PAIR)"
+        titleSecondary: "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
     }
 };
 
@@ -23,16 +23,16 @@ const $m = {
             textSubsidiary: "TBD"
         },
         right: {
-            one: { "text-1-1": "10+", "text-1-2": "Courses Offered", "text-1-3": "Our Courses on AIMAHEAD" },
+            one: { "text-1-1": "10+", "text-1-2": "Courses Offered", "text-1-3": "Our Courses on AIM-AHEAD" },
             two: { "text-2-1": "10+", "text-2-2": "Partner Organizations", "text-2-3": "We collaborate with a vast array of partners across all states and union territories" },
-            three: { "text-3-1": "100+", "text-3-2": "San Diego State University", "text-3-3": "Our multidisciplinary faculty are committed to advancing AIMAHEAD" },
+            three: { "text-3-1": "100+", "text-3-2": "San Diego State University", "text-3-3": "Our multidisciplinary faculty are committed to advancing AIM-AHEAD" },
             moreBtnLink: "https://www.google.com"
         }
     },
     regionTwo: {
         resources: {
             link: "https://www.google.com/search?q=Resources",
-            introducePrimary: "Read the latest research news, learn about our affiliated Centers and Institutes, and access resources for conducting research.",
+            introducePrimary: "Read the latest research news, learn about our affiliated centers and institutes, and access resources for conducting research.",
             introduceSecondary: "Resources for Researchers",
             introduceSecondaryLink: "https://www.google.com/search?q=introduceSecondaryLink"
         },
