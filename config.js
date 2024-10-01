@@ -47,7 +47,7 @@ const $m = {
         joinNowLink: "https://www.google.com/search?q=joinNowLink"
     },
     regionFour: {
-        titlePrimary: "Join Us(TBD)",
+        titlePrimary: "Join Us",
         titleSecondary: "Your Join Changes the World",
         joinUsNowLink: "https://www.google.com/search?q=joinUsNowLink"
     }
